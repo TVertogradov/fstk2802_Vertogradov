@@ -1,0 +1,13 @@
+.container{
+  background: blue;
+  color: orange;
+}
+
+.container.main-container > p,
+.container > span {
+  color: white;
+}
+
+.container main-container{
+  color: red;
+}

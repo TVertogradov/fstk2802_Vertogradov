@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #a6a6a6;
+
+
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+    font-size: 18px;
+    color: white;
+}
+
+a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    color: white;
+}
+
+a.first:active{
+    background: red;
+    font-weight: 600;
+
+}
+article{
+    background: #efeded;
+}
+
+p{
+    background: #efeded;
+}
+
+footer {
+    background: #a6a6a6;
+    min-height: 80px;
+}
